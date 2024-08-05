@@ -9,75 +9,179 @@
 </head>
 <body>
     <h1>workshop-GIT</h1>    
-
-    <h2>control de versiones</h2>
-    <p>Un control de versiones es un sistema que registra cada cambio que se realiza
-        en el código fuente de un proyecto. Esto te permite tener un histórico de todos los
-        cambios producidos en sus ficheros, saber quién lo hizo y cuándo.</p>
-    <h2>que es GIT</h2>
-    <P>Git es un sistema de control de versiones distribuido que permite a los desarrolladores 
-        gestionar y rastrear los cambios en el código fuente a lo largo del tiempo. Fue creado 
-        por Linus Torvalds en 2005 para mejorar el desarrollo del kernel de Linux.</P>
-    <h2>¿Qué es un repositorio?, repositorio locales y remotos.</h2>
-    <p>un repositorio es un contenedor para el código y su historial de cambios. Los repositorios locales permiten el desarrollo individual y cómputo offline, mientras que los repositorios 
-        remotos facilitan la colaboración y el trabajo en equipo en proyectos de software.</p>
-    <div class="padre">
-        <div class="hijo1">
-            <h2>repositorio local</h2>
-            <p>Un repositorio local es una copia del repositorio de un proyecto que reside en la máquina del desarrollador.
-                 A diferencia de un repositorio remoto, que se encuentra en un servidor o en una plataforma de colaboración (como GitHub o GitLab), el repositorio 
-                local permite al desarrollador trabajar de manera independiente, sin necesidad de conexión a Internet.</p>
-        </div>
-        <div class="hijo2">
-            <h2>repositorio remoto</h2>
-            <p>Un repositorio remoto es una versión de un repositorio de proyecto que se aloja en un servidor o en
-                una plataforma de desarrollo colaborativa, como GitHub, GitLab, Bitbucket o Azure DevOps. Este tipo 
-                de repositorio permite que varios desarrolladores colaboren en el mismo proyecto al compartir y sincronizar sus cambios.</p>
+    <div class="izquierda">
+        <img src="img/control.png" alt="">
+        <div>
+        <h2>control de versiones</h2>
+            <p>Un control de versiones es un sistema que registra cada cambio que se realiza
+                en el código fuente de un proyecto. Esto te permite tener un histórico de todos los
+                cambios producidos en sus ficheros, saber quién lo hizo y cuándo.</p>
+            </div>
+    </div>
+    <div class="derecha">
+        <div>
+        <h2>que es GIT</h2>
+            <P>Git es un sistema de control de versiones distribuido que permite a los desarrolladores 
+                gestionar y rastrear los cambios en el código fuente a lo largo del tiempo. Fue creado 
+                por Linus Torvalds en 2005 para mejorar el desarrollo del kernel de Linux.</P>
+            </div>
+                <img src="img/git.png" alt="">
+            
+  </div>
+    <div class="izquierda">
+        <div>
+            <h2>¿Qué es un repositorio?, repositorio locales y remotos.</h2>
+                <p>un repositorio es un contenedor para el código y su historial de cambios. Los repositorios locales permiten el desarrollo individual y cómputo offline, mientras que los repositorios 
+                    remotos facilitan la colaboración y el trabajo en equipo en proyectos de software.</p>
+         <div class="padre">
+            <div class="hijo1">
+                <h2>repositorio local</h2>
+                    <p>Un repositorio local es una copia del repositorio de un proyecto que reside en la máquina del desarrollador.
+                        A diferencia de un repositorio remoto, que se encuentra en un servidor o en una plataforma de colaboración (como GitHub o GitLab), el repositorio 
+                        local permite al desarrollador trabajar de manera independiente, sin necesidad de conexión a Internet.</p>
+                    <img src="img/local.png" alt="">    
+            </div>
+            <div class="hijo2">
+                <h2>repositorio remoto</h2>
+                    <p>Un repositorio remoto es una versión de un repositorio de proyecto que se aloja en un servidor o en
+                        una plataforma de desarrollo colaborativa, como GitHub, GitLab, Bitbucket o Azure DevOps. Este tipo 
+                        de repositorio permite que varios desarrolladores colaboren en el mismo proyecto al compartir y sincronizar sus cambios.</p>
+                    <img src="img/remoto.png" alt="">    
+            </div>
         </div>
     </div>
-    <h2>que es GitHub</h2>
-    <p>GitHub es una plataforma de desarrollo de software que utiliza Git como sistema de control de versiones. Se ha convertido en una de
-        las herramientas más populares para el desarrollo colaborativo de proyectos de software debido a sus múltiples características y
-        funcionalidades.</p>
-    <h2>que es una rama GIT y para qeu sirve</h2>
-    <p>Una rama en Git es una línea de desarrollo independiente dentro de un repositorio. Las ramas permiten a los desarrolladores trabajar 
-        en diferentes características, correcciones de errores u otras tareas sin afectar la rama principal (generalmente llamada main o master).</p>
-    <p>sirve para: Una rama en Git sirve para facilitar el desarrollo de software al permitir que los desarrolladores trabajen en nuevas funciones
-         o correcciones de errores de manera aislada, sin afectar el código estable en la rama principal. Esto es especialmente útil para experimentar 
-         con nuevas ideas o implementar cambios grandes sin el riesgo de romper el código existente. </p>
+    </div>
+    <div class="derecha">
+        <div>
+            <h2>que es GitHub</h2>
+                <p>GitHub es una plataforma de desarrollo de software que utiliza Git como sistema de control de versiones. Se ha convertido en una de
+                    las herramientas más populares para el desarrollo colaborativo de proyectos de software debido a sus múltiples características y
+                    funcionalidades.</p>
+        </div>
+                <img src="img/github.png" alt="">
+    </div>
+    <div class="izquierda">
+        <img src="img/rama.jpeg" alt="">
+        <div>
+            <h2>que es una rama GIT y para qeu sirve</h2>
+                <p>Una rama en Git es una línea de desarrollo independiente dentro de un repositorio. Las ramas permiten a los desarrolladores trabajar 
+                    en diferentes características, correcciones de errores u otras tareas sin afectar la rama principal (generalmente llamada main o master).</p>
+                <p>sirve para: Una rama en Git sirve para facilitar el desarrollo de software al permitir que los desarrolladores trabajen en nuevas funciones
+                     o correcciones de errores de manera aislada, sin afectar el código estable en la rama principal. Esto es especialmente útil para experimentar 
+                    con nuevas ideas o implementar cambios grandes sin el riesgo de romper el código existente. </p>
+        </div>
+    </div>
+        <div class="derecha">
+            <div>
+                <h2>cuales son los estados en git </h2>  
+                 <ol>
+                    <li>Modificado: Cuando realizas cambios en un archivo en tu directorio de trabajo, ese archivo pasa al estado
+                        "modificado". Esto significa que has editado el archivo, pero aún no has preparado esos cambios para la confirmación.
+                    </li>
+                    <li>Prepara (staged): Cuando decides que quieres incluir los cambios de un archivo modificado en tu próxima confirmación, utilizas
+                        el comando git add. Esto cambia el estado del archivo a "preparado". En este estado, Git está listo para incluir los cambios en el próximo "commit".
+                    </li>
+                    <li>
+                        Confirmado (committed): Después de preparar los cambios, los confirmas utilizando el comando git commit. Esto guarda los cambios en el
+                        repositorio y los marca como parte del historial de versiones. Los archivos en este estado están almacenados en el repositorio y son parte de la versión actual del proyecto.
+                    </li>
+                </ol>
+            </div>
+                <img src="img/estado.png" alt="">
+        </div>
+    <div class="izquierda">
+        <img src="img/consola.jpeg" alt="">
+        <div>
+            <h2>¿Qué es la terminal, consola o línea de comandos y para qué sirve?</h2>
+                <p>La terminal, consola o línea de comandos son interfaces que permiten a los usuarios interactuar con el sistema operativo de una computadora
+                    mediante texto, en lugar de utilizar una interfaz gráfica. Estas herramientas son comúnmente utilizadas en sistemas operativos como Linux, macOS y 
+                    Windows (a través de la "Símbolo del sistema" o "PowerShell").</p>
+        </div>
+    </div>
+        <div class="tablas">
+            <div>
+        <h2>funcionamiento de los siguientes comandos: </h2>
+        <table>
+            <tr>
+                <td>"ls"</td>
+                <td>Este comando mostrará los nombres de los archivos y directorios en el directorio actual.</td>
+            </tr>
+            <tr>
+                <td>"cd directorio"</td>
+                <td>Este comando es fundamental para navegar por el sistema de archivos desde la línea de comandos.</td>
+            </tr>
+            <tr>
+                <td>"cd .."</td>
+                <td>Subir un Nivel, Para ir al directorio padre (un nivel arriba en la jerarquía)</td>
+            </tr>
+            <tr>
+                <td>"PWD"</td>
+                <td>Este comando es útil para saber en qué parte del sistema de archivos te encuentras mientras navegas por la línea de comandos.</td>
+            </tr>
+            <tr>
+                <td>"PWD"</td>
+                <td>Para crear un directorio llamado "nueva_carpeta"</td>
+            </tr>
+            <tr>
+                <td>"touch"</td>
+                <td>Crear un archivo vacío, Si deseas crear un nuevo archivo llamado archivo.txt</td>
+            </tr>
+            <tr>
+                <td>"rm"</td>
+                <td>Eliminar un archivo, Para eliminar un archivo llamado archivo.txt</td>
+            </tr>
+            <tr>
+                <td>"cp"</td>
+                <td>Copiar un archivo a otro archivo, Para copiar un archivo llamado origen.txt a un nuevo archivo llamado destino.txt</td>
+            </tr>
+            <tr>
+                <td>"mv"</td>
+                <td>Mover un archivo, Para mover un archivo de una ubicación a otra, especifica el archivo de origen seguido del destino.</td>
+            </tr>
+        </table>
+    </div>
 
-    <h2>cuales son los estados en git </h2>  
-    <ol>
-        <li>Modificado: Cuando realizas cambios en un archivo en tu directorio de trabajo, ese archivo pasa al estado
-             "modificado". Esto significa que has editado el archivo, pero aún no has preparado esos cambios para la confirmación.
-        </li>
-        <li>Prepara (staged): Cuando decides que quieres incluir los cambios de un archivo modificado en tu próxima confirmación, utilizas
-            el comando git add. Esto cambia el estado del archivo a "preparado". En este estado, Git está listo para incluir los cambios en el próximo "commit".
-        </li>
-        <li>
-            Confirmado (committed): Después de preparar los cambios, los confirmas utilizando el comando git commit. Esto guarda los cambios en el
-             repositorio y los marca como parte del historial de versiones. Los archivos en este estado están almacenados en el repositorio y son parte de la versión actual del proyecto.
-        </li>
-    </ol>
-    <h2>¿Qué es la terminal, consola o línea de comandos y para qué sirve?</h2>
-    <p>La terminal, consola o línea de comandos son interfaces que permiten a los usuarios interactuar con el sistema operativo de una computadora
-        mediante texto, en lugar de utilizar una interfaz gráfica. Estas herramientas son comúnmente utilizadas en sistemas operativos como Linux, macOS y 
-        Windows (a través de la "Símbolo del sistema" o "PowerShell").</p>
-    <h2>funcionamiento de los siguientes comandos: </h2>
-    <table>
-        <tr>
-            <td>"ls"</td>
-            <td>Este comando mostrará los nombres de los archivos y directorios en el directorio actual.</td>
-        </tr>
-        <tr>
-            <td>"cd directorio"</td>
-            <td>pepe</td>
-        </tr>
-        <tr>
-            <td>"cd .."</td>
-            <td>Subir un Nivel: Para ir al directorio padre (un nivel arriba en la jerarquía)</td>
-        </tr>
-
-    </table>
+    <div>
+        <h2>nombre y funcion de los comandos utilizados</h2>
+            <table>
+                <tr>
+                    <td>"git config --global user.name "[name]""</td>
+                    <td>Establece el nombre que desea esté anexado a sus transacciones
+                        de commit</td>
+                </tr>
+                <tr>
+                    <td>"git config --global user.email "[email address]""</td>
+                    <td>Establece el e-mail que desea esté anexado a sus transacciones de commit</td>
+                </tr>
+                <tr>
+                    <td>"git status"</td>
+                    <td>Enumera todos los archivos nuevos o modificados que se deben confirmar</td>
+                </tr>
+                <tr>
+                    <td>"git diff"</td>
+                    <td>Muestra las diferencias de archivos que no se han enviado aún al
+                        área de espera</td>
+                </tr>
+                <tr>
+                    <td>"git add [file]"</td>
+                    <td>Toma una instantánea del archivo para preparar la versión</td>
+                </tr>
+                <tr>
+                    <td>"git diff --staged"</td>
+                    <td>Muestra las diferencias del archivo entre el área de espera y la última
+                      versión del archivo</td>
+                </tr>
+                <tr>
+                    <td>"git reset [file]"</td>
+                    <td>Mueve el archivo del área de espera, pero preserva su contenido</td>
+                </tr>
+                <tr>
+                    <td>"git commit -m "[descriptive message]""</td>
+                    <td>Registra las instantáneas del archivo permanentemente en
+                        el historial de versión</td>
+                </tr>
+            </table>
+        </div>
+    </div> 
     </body>
 </html>
